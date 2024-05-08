@@ -1,0 +1,10 @@
+.conatiner{
+    width: 100%;
+}
+.border{
+    border: 1px solid black;
+}
+.relative{
+    position: relative;
+    left: -1%;
+}
