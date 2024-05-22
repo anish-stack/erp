@@ -6,7 +6,7 @@ import Companyes from './Companyes';
 const Dashboardhome = () => {
     return (
         <div className='container-fluid h-screen py-2 ml-2 mt-2 '>
-            <div className='row'>
+            <div className='row'> 
                 <div className='col-lg-12 '>
                     <div className='py-3 w-full'>
                         <h2 className='blue fw-bolder text-start'>Dashboard</h2>
