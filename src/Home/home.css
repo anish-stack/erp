@@ -4,7 +4,15 @@
 .border{
     border: 1px solid black;
 }
-.relative{
+/* .relative{
     position: relative;
     left: -1%;
+} */
+
+
+.sideNavHead{
+    min-height: 100vh;
+    width: 350px;
+    overflow-x: hidden;
+    overflow-y: auto;
 }

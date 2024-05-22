@@ -174,8 +174,8 @@ const Header = () => {
 
                 <Link to={'/Bills/Create-Bills'} className="collapse-item"><i className="fa-solid fa-plus mr-2"></i>Create-Bills </Link>
                 <Link to={'/Bills/All-Bills'} className="collapse-item"><i className="fa-solid fa-users mr-2"></i>All Bills</Link>
-                <Link to={'/Create-Challan'} className="collapse-item"><i className="fa-solid fa-plus mr-2"></i>Create-Challan </Link>
-                <Link to={'/All-Challan'} className="collapse-item"><i className="fa-solid fa-users mr-2"></i>All Challan</Link>
+                <Link to={'/challan/create-challan'} className="collapse-item"><i className="fa-solid fa-plus mr-2"></i>Create-Challan </Link>
+                <Link to={'/challan/All-Challan'} className="collapse-item"><i className="fa-solid fa-users mr-2"></i>All Challan</Link>
               </div>
             </div>
 
@@ -233,7 +233,7 @@ const Header = () => {
         <div id="collapsePages" className={`collapse ${Reports ? '' : 'd-none'}`} aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div className="bg-white  collapse-inner rounded">
 
-            <Link to={'/Daily'} className="collapse-item"><i class="fa-solid fa-clock mr-2"></i>Daily</Link>
+            <Link to={'/reports/daily-reports'} className="collapse-item"><i class="fa-solid fa-clock mr-2"></i>Daily</Link>
             <Link to={'/Weekly'} className="collapse-item"><i class="fa-solid fa-calendar mr-2"></i>Weekly </Link>
             <Link to={'/Monthly'} className="collapse-item"><i class="fa-solid fa-calendar-days mr-2"></i>Monthly </Link>
 
